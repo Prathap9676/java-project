@@ -39,7 +39,7 @@ pipeline {
          steps {
            sh 'ls -ltr'
            //sh 'kubectl apply -f app-deploy.yaml'
-            sh 'sudo docker container run -d --name testcont salilkul87/myjava-image:test'
+            sh 'sudo docker container run -d --name testcont-${BUILD_NUMBER} salilkul87/myjava-image:test'
         }
      }
     }
