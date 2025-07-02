@@ -1,6 +1,6 @@
 pipeline {
    environment {
-     git_url = "https://github.com/devopsguy27/java-project.git"
+     git_url = "https://github.com/Prathap9676/java-project.git"
      git_branch = "main"
    }
 
