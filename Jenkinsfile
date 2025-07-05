@@ -4,8 +4,8 @@ pipeline {
      git_branch = "main"
    }
 
-  //agent {label 'dev'}
-  agent any
+  agent {label 'NODE2'}
+  //agent any
   stages {
     stage('Pull Source') {
       steps {
